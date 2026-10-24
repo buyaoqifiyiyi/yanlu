@@ -1,0 +1,6 @@
+interface:
+  display_name: "Superpowers 本机工作流"
+  short_description: "多步骤编码的任务续接、范围明确的交接及带证据的最终验收协调流程"
+  default_prompt: "使用 $superpowers-workflow 完成这个多步骤编码任务，并保留可续接台账和验收证据。"
+policy:
+  allow_implicit_invocation: true

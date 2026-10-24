@@ -1,0 +1,11 @@
+# Attribution and local integration
+
+Yanlu retains its original MIT notices for nuwa-skill, darwin-skill and cangjie-skill in LICENSE.
+Ponytail's locally adapted six modules are now maintained here; Copyright (c) 2026 DietrichGebert, MIT (licenses/ponytail-MIT.txt).
+The feedback and evaluation guidance selectively adapts methods from GEPA (MIT), Anthropic skill-creator (Apache-2.0), and Promptfoo (MIT). Full notices are in licenses/. No upstream SDK, model runner, hooks or aggregator code is included. New offline comparison code and local integration are original local implementations under MIT; this does not relicense upstream material or assert upstream endorsement.
+
+Version 3 includes locally adapted mattpocock/skills modules and a local obra/superpowers-derived workflow. Original module credits, upstream notes and source-specific licenses are retained; no host plugin runtime is transplanted.
+
+Version 3.1 selectively adapts evaluation and portable handoff methods from affaan-m/ECC, commit 90606c8315ee09cafc303515c5f33024db6b9882, Copyright (c) 2026 Affaan Mustafa, MIT (licenses/ecc-MIT.txt). Local evidence, scope and maintenance rules remain authoritative. No ECC runtime, MCP server, hooks, execution gate or statistical calculator is included.
+
+Version 3.2.1 selectively adapts Stop Ladder additions and stss reader-facing prose methods from lennney/stop-that-shit, commit 8bc1ac558167121e7f28d9fb0bec05c039952206, Copyright (c) 2026 Stop That Shit contributors, MIT (licenses/stop-that-shit-MIT.txt). No Guard, hooks, audit store, mode parser, CLI or enforcement runtime is included.

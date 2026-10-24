@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "repository": "https://github.com/msitarzewski/agency-agents",
+  "commit": "4e3ac3ca6604c75113f52c695dbddcc7af928b46",
+  "target_skill": "yanlu",
+  "target_version": "3.2.0",
+  "adoption": "selective-method-adaptation",
+  "entries": [
+    {
+      "sha256": "3618b4a2a73523147731ae38ac4096cea0e83a7de930f55ea9ea6c69e3c77f30",
+      "target": "modules/research/references/evidence-synthesis.md",
+      "source": "research/research-synthesist.md",
+      "lines": "27-47",
+      "method": "同源转述、分歧、证据缺口与必要证据链",
+      "excluded": [
+        "逐来源强制打分",
+        "固定综述格式",
+        "无关弱源决定全篇置信度"
+      ]
+    },
+    {
+      "sha256": "07aa548b45887c3ad768efad5fdbf6e57bea639df4f1b74c7e383142f454e2a1",
+      "target": "modules/research/references/repository-orientation.md",
+      "source": "engineering/engineering-codebase-onboarding-engineer.md",
+      "lines": "19-36",
+      "method": "实际入口、相关执行链、文件职责与证据范围",
+      "excluded": [
+        "强制三层长报告",
+        "全仓阅读",
+        "禁止用户已请求的建议",
+        "完全隐去必要推断"
+      ]
+    },
+    {
+      "sha256": "c1b2c22711cb6e74dd834f831d6a8b3f10c93cd462722073b01acae9d0a40700",
+      "target": "modules/code-review/references/semantic-consistency.md",
+      "source": "specialized/specialized-codebase-archaeologist.md",
+      "lines": "121-152",
+      "method": "值的表示、默认值、状态依赖与共同职责",
+      "excluded": [
+        "所有handler强制检查",
+        "没有显式保证直接定为缺陷",
+        "四视图全仓台账",
+        "固定外部审查角色"
+      ]
+    }
+  ],
+  "license": {
+    "source": "LICENSE",
+    "sha256": "45c861c1178a99178033b61302af7610e870082e874981b57519c2a1369299c0",
+    "target": "licenses/agency-agents-MIT.txt"
+  },
+  "boundaries": [
+    "保留所有既有本地定制与资源",
+    "Standards/Spec双轴不合并",
+    "诊断复现与回归路径保留",
+    "不新增入口、运行时、服务、固定报告或代理",
+    "候选状态不代表业务效果或宿主加载已验证"
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "衍炉 · Yanlu"
+  short_description: "工程方法与技能维护统一入口，按需进行编码、诊断、测试、审查、调研和迭代"
+  default_prompt: "使用 $yanlu 选择当前需要的编码、复杂度审查或技能维护模块，保留原有边界并验证实际结果。"
+policy:
+  allow_implicit_invocation: true

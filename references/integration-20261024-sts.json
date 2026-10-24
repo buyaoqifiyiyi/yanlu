@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-24",
+  "version": "3.2.1",
+  "repository": "https://github.com/lennney/stop-that-shit",
+  "source_commit": "8bc1ac558167121e7f28d9fb0bec05c039952206",
+  "source_release": "0.2.5",
+  "source_sha256": {
+    "skills/stop-that-shit/SKILL.md": "c6687032590f99268de6b34de4cd845e9c72fb7c85849985ba4538b8fa26be02",
+    "skills/stss/SKILL.md": "0ceb49c74159c71a09c01d99e59e3acc970cb1965bbc1e9779cda8ddad125f7e",
+    "LICENSE": "490d24d072eb0ce7366aad15af3513479d6068ff56c10bd7f0a9e011f308970d"
+  },
+  "targets": [
+    "references/operating-principles.md",
+    "references/reader-prose.md"
+  ],
+  "deduplicated": [
+    "full Stop Ladder",
+    "standard library/platform reuse",
+    "scope and required checks already in global/coding/complexity rules"
+  ],
+  "excluded": [
+    "Guard",
+    "hooks",
+    "runtime",
+    "audit",
+    "mode parser",
+    "CLI",
+    "agent capacity ledger",
+    "host execution gate"
+  ],
+  "verification": "candidate static/content review; business effects and host rediscovery unverified"
+}
