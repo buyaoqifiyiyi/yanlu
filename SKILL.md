@@ -37,7 +37,7 @@ metadata:
 
 模块正文中的旧技能名是本表的包内模式，不代表需要安装或启动已归档独立技能。需要codebase-design/TDD/code-review/research/Agent文档等时，从本表读取对应GUIDE，按原条件执行。复杂度审查、正确性审查、技能审查分别选择；要求“审查并修复”才进入明确授权的修改范围。
 
-视觉UI的具体设计、已有截图实现、品牌板与图片参考交由 [绘枢](../huishu/SKILL.md)；原型的逻辑/实验边界仍由本包保留。联网资料用实际可用Web Access；OpenAI产品先遵循宿主官方文档来源规则。系统skill-creator/installer及review-agent仍可按宿主职责调用，不删除系统/插件资源或伪造工具。
+视觉UI的具体设计、已有截图实现、品牌板与图片参考可交由可选伴随技能 [绘枢](https://github.com/buyaoqifiyiyi/huishu)，先确认已安装；原型的逻辑/实验边界仍由本包保留。联网资料用实际可用Web Access；OpenAI产品先遵循宿主官方文档来源规则。系统skill-creator/installer及review-agent仍可按宿主职责调用，不删除系统/插件资源或伪造工具。
 
 `yanlu off`、`ponytail off`、`stop ponytail`、`normal mode`关闭会话编码精简模式；普通任务、review/help、TDD、调研或技能维护都不自动恢复。明确启用编码模式或指定lite/full/ultra才恢复；其他明确请求的功能仍可运行。只有技能名无任务时简述模式，不启动维护。
 
