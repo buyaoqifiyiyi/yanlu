@@ -3,7 +3,7 @@ name: yanlu
 description: 编码修复重构、性能诊断、TDD、正确性/复杂度审查、模块与领域设计、原型、PR、调研与证据综合、代码库导览、任务续接与跨工具交接、人工配置向导、方案质询、Agent文档、读者文案防御性措辞审查/改写，以及技能创建评估、Agent/提示词任务验收和资料蒸馏。兼容code-review/codebase-design/diagnosing-bugs/domain-modeling/grilling/pr/prototype/research/superpowers-workflow/tdd/wizard/writing-for-agents和Ponytail文字口令；只读所需模块，视觉设计用绘枢、剪辑用剪辑入口，普通任务不启动技能优化实验。
 license: See LICENSE, NOTICE and source-specific licenses
 metadata:
-  version: "3.3.0"
+  version: "3.3.1"
 ---
 
 # 衍炉 · Yanlu · 工程与技能方法单入口
@@ -44,3 +44,5 @@ metadata:
 旧文字口令仍可识别；宿主只注册Yanlu，不承诺旧独立$技能ID或选择器句柄。Stop That Shit、stss仅保留方法或文字意图兼容；Guard/Hook、审计、模式解析器和机器拦截不在本包内。
 
 [记录比较器](references/evaluation-records.md)只比较已有记录，不自动执行或采用。[维护映射](references/maintenance.md)与[来源](references/upstream.md)定义本地维护源。
+
+Web 前端实现涉及弹层、布局、动画、表单/IME、性能或 HTML 安全且需要平台选型时，可按需读取伴随绘枢的[现代 Web 实现参考](https://github.com/buyaoqifiyiyi/huishu/blob/main/modules/modern-web-guidance/GUIDE.md)。仅加载匹配指南及降级，保留现有组件与目标浏览器；后端、纯文案和无需平台选型的小修不触发。绘枢未安装时直接用项目证据和官方文档，不自动安装依赖。
