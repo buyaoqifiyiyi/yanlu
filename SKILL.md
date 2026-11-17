@@ -3,7 +3,7 @@ name: yanlu
 description: 编码修复重构、性能诊断、TDD、正确性/复杂度审查、模块与领域设计、原型、PR、调研与证据综合、代码库导览、任务续接与跨工具交接、人工配置向导、方案质询、Agent文档、读者文案防御性措辞审查/改写，以及技能创建评估、Agent/提示词任务验收和资料蒸馏。兼容code-review/codebase-design/diagnosing-bugs/domain-modeling/grilling/pr/prototype/research/superpowers-workflow/tdd/wizard/writing-for-agents和Ponytail文字口令；只读所需模块，视觉设计用绘枢、剪辑用剪辑入口，普通任务不启动技能优化实验。
 license: See LICENSE, NOTICE and source-specific licenses
 metadata:
-  version: "3.3.1"
+  version: "3.4.0"
 ---
 
 # 衍炉 · Yanlu · 工程与技能方法单入口
@@ -37,7 +37,7 @@ metadata:
 
 模块正文中的旧技能名是本表的包内模式，不代表需要安装或启动已归档独立技能。需要codebase-design/TDD/code-review/research/Agent文档等时，从本表读取对应GUIDE，按原条件执行。复杂度审查、正确性审查、技能审查分别选择；要求“审查并修复”才进入明确授权的修改范围。
 
-视觉UI的具体设计、已有截图实现、品牌板与图片参考可交由可选伴随技能 [绘枢](https://github.com/buyaoqifiyiyi/huishu)，先确认已安装；原型的逻辑/实验边界仍由本包保留。联网资料用实际可用Web Access；OpenAI产品先遵循宿主官方文档来源规则。系统skill-creator/installer及review-agent仍可按宿主职责调用，不删除系统/插件资源或伪造工具。
+视觉UI的具体设计、已有截图实现、品牌板与图片参考交由 [绘枢](https://github.com/buyaoqifiyiyi/huishu)；原型的逻辑/实验边界仍由本包保留。联网资料用实际可用Web Access；OpenAI产品先遵循宿主官方文档来源规则。系统skill-creator/installer及review-agent仍可按宿主职责调用，不删除系统/插件资源或伪造工具。
 
 `yanlu off`、`ponytail off`、`stop ponytail`、`normal mode`关闭会话编码精简模式；普通任务、review/help、TDD、调研或技能维护都不自动恢复。明确启用编码模式或指定lite/full/ultra才恢复；其他明确请求的功能仍可运行。只有技能名无任务时简述模式，不启动维护。
 
