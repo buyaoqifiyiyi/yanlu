@@ -1,6 +1,6 @@
 ---
 name: yanlu
-description: 编码修复重构、性能诊断、TDD、正确性/复杂度审查、模块与领域设计、原型、PR、调研与证据综合、代码库导览、任务续接与跨工具交接、人工配置向导、方案质询、Agent文档、读者文案防御性措辞审查/改写，以及技能创建评估、Agent/提示词任务验收和资料蒸馏。兼容code-review/codebase-design/diagnosing-bugs/domain-modeling/grilling/pr/prototype/research/superpowers-workflow/tdd/wizard/writing-for-agents和Ponytail文字口令；只读所需模块，视觉设计用绘枢、剪辑用剪辑入口，普通任务不启动技能优化实验。
+description: 编码修复重构、性能诊断、TDD、正确性/复杂度审查、模块与领域设计、原型、PR、调研与证据综合、代码库导览、任务续接与跨工具交接、人工配置向导、方案质询、Agent文档、读者文案防御性措辞审查/改写，以及技能创建评估、Agent/提示词任务验收和资料蒸馏。方案存在影响目标、范围、验收或高代价选择的关键假设、矛盾与遗漏时，主动质询，无需用户点名。兼容code-review/codebase-design/diagnosing-bugs/domain-modeling/grilling/pr/prototype/research/superpowers-workflow/tdd/wizard/writing-for-agents和Ponytail文字口令；只读所需模块，视觉设计用绘枢、剪辑用剪辑入口，普通任务不启动技能优化实验。
 license: See LICENSE, NOTICE and source-specific licenses
 metadata:
   version: "3.4.0"
@@ -25,7 +25,7 @@ metadata:
 | 事实/技术/项目来源调研、证据综合、代码库导览、research | [调研](modules/research/GUIDE.md) | 多源综合与只读导览按需加载；检索执行沿Web Access/专用连接器，按用户指定位置交付 |
 | 多步跨模块任务/中断续接与跨工具交接、superpowers-workflow | [协调](modules/superpowers-workflow/GUIDE.md) | 小改不强制台账、TDD、访谈或子代理 |
 | 需要人亲自做的账号/配置步骤、wizard | [人工向导](modules/wizard/GUIDE.md) | 只为无法代办步骤；验证目标.env解析器；不自动安装shell |
-| 用户要求质询计划、grilling | [方案质询](modules/grilling/GUIDE.md) | 只问会影响决策的问题，不无限访谈 |
+| 方案/计划/功能设计/选型出现关键假设、矛盾、遗漏或高代价决策；或用户要求grill me/grilling | [方案质询](modules/grilling/GUIDE.md) | 主动按条件加载，无需点名；只问会影响决策的问题，不无限访谈 |
 | 编写Agent指令、AGENTS/CLAUDE、writing-for-agents | [Agent文档](modules/writing-for-agents/GUIDE.md) | 作用是写法，不取代宿主包装和用户授权 |
 | 面向读者的文案防御性措辞审查/改写；stss audit/rewrite | [读者文案](references/reader-prose.md) | audit只报意见，rewrite返回改写；普通编码和一般润色不加载，不改变编码档位 |
 | 创建/维护/评估技能或内容蒸馏 | [技能工作流](references/skill-workflow.md) | 才进入来源、快照、相称验证或效果比较 |
@@ -34,6 +34,8 @@ metadata:
 | 实际证据支持改本包 | [反馈迭代](references/feedback.md) | 不把每次交付扩成优化实验 |
 
 ## 组合与互调
+
+方案确定、实施前及重要方向变化时，主动检查是否符合方案质询的触发条件；符合就读取该模块并执行，不等待用户说“grill me”。自动触发默认是聚焦关键决策的质询，全面逐分支访谈仅在用户明确要求时使用。复用提示词增强或其他模块已经澄清的决定，不重复访谈；关键问题解决后继续原任务。
 
 模块正文中的旧技能名是本表的包内模式，不代表需要安装或启动已归档独立技能。需要codebase-design/TDD/code-review/research/Agent文档等时，从本表读取对应GUIDE，按原条件执行。复杂度审查、正确性审查、技能审查分别选择；要求“审查并修复”才进入明确授权的修改范围。
 
