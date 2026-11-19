@@ -3,7 +3,7 @@ name: yanlu
 description: 编码修复重构、性能诊断、TDD、正确性/复杂度审查、模块与领域设计、原型、PR、调研与证据综合、代码库导览、任务续接与跨工具交接、人工配置向导、方案质询、Agent文档、读者文案防御性措辞审查/改写，以及技能创建评估、Agent/提示词任务验收和资料蒸馏。方案存在影响目标、范围、验收或高代价选择的关键假设、矛盾与遗漏时，主动质询，无需用户点名。兼容code-review/codebase-design/diagnosing-bugs/domain-modeling/grilling/pr/prototype/research/superpowers-workflow/tdd/wizard/writing-for-agents和Ponytail文字口令；只读所需模块，视觉设计用绘枢、剪辑用剪辑入口，普通任务不启动技能优化实验。
 license: See LICENSE, NOTICE and source-specific licenses
 metadata:
-  version: "3.4.0"
+  version: "3.4.1"
 ---
 
 # 衍炉 · Yanlu · 工程与技能方法单入口

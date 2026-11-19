@@ -8,6 +8,8 @@
 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | `8a8b66258e3c45d6ae4aea39719468c6428fcb0a` | 基线与候选测试、独立配对评审、有限轮次、保留或回退 |
 
 2026-11-17 自 `e7c0e66541428852bd38c13c7305ecd9492e4013`（v3.0.1）吸收证据阶梯：keep/revert 由实跑盲评产出决定（至少 E2），读评仅诊断排序；未采用其脚本、结果卡与仓库资产。
+
+2026-11-19 自 `5a8e633a20ea5bb2bf8b9c697c6da04ad85740ba`（v3.0.2）吸收并发派发、重跑上限、评委补派与成本公式；其余未变。
 | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | `a28de55ba881b9928956a55048f743f7a9e3b23e` | 任务优先的内容筛选、RIA++ 能力卡、独立入口筛选、来源覆盖与压力测试 |
 
 主要参考：[女娲入口](https://github.com/alchaincyf/nuwa-skill/blob/7812110bf7e5a2b01b6aa5a738568044121bbfa2/SKILL.md)、[提炼框架](https://github.com/alchaincyf/nuwa-skill/blob/7812110bf7e5a2b01b6aa5a738568044121bbfa2/references/extraction-framework.md)、[人物模板](https://github.com/alchaincyf/nuwa-skill/blob/7812110bf7e5a2b01b6aa5a738568044121bbfa2/references/skill-template.md)、[达尔文入口](https://github.com/alchaincyf/darwin-skill/blob/8a8b66258e3c45d6ae4aea39719468c6428fcb0a/SKILL.md)。上游版权声明见本包 LICENSE。
