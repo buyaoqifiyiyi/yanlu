@@ -2,6 +2,10 @@
 
 Actively build and sharpen the project's domain model as you design. This is the *active* discipline: challenging terms, inventing edge-case scenarios, and writing the glossary and decisions down the moment they crystallise. (Merely *reading* `GLOSSARY.md` for vocabulary is not this skill: that's a one-line habit any skill can do. This skill is for when you're changing the model, not just consuming it.)
 
+## 接收启问交接
+
+启问的交接材料是当前任务已确认的术语、决策和理由。用户只要求交接时，核对有关领域定义并在对话中整理摘要。明确授权写入项目留档时，才在授权范围内使用下文的文件规则。用户已确认的定义与现有词汇表有冲突时先指出差异；未确认的建议、待决项与缺失理由保持原状态。
+
 ## File structure
 
 Most repos have a single context:
