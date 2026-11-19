@@ -9,11 +9,15 @@
 本仓库根目录就是一个完整技能包，`SKILL.md`是入口，`modules/`和`references/`按任务加载。以 Codex 的用户技能目录为例，将整个仓库克隆到技能目录中的`yanlu`文件夹；已有同名目录时先备份并比较，不直接覆盖。
 
 ```powershell
-New-Item -ItemType Directory -Force "$HOME/.codex/skills" | Out-Null
-git clone https://github.com/buyaoqifiyiyi/yanlu.git "$HOME/.codex/skills/yanlu"
+New-Item -ItemType Directory -Force "$HOME/.agents/skills" | Out-Null
+git clone https://github.com/buyaoqifiyiyi/yanlu.git "$HOME/.agents/skills/yanlu"
 ```
 
 也可以下载仓库 ZIP，解压后将包含`SKILL.md`的整个文件夹放入宿主的技能目录。刷新技能列表或重新打开会话后使用`$yanlu`；其他支持同类技能结构的宿主按其实际技能目录安装。
+
+## 启问联动
+
+工程中途的自动质询调用启问的共用规则。将 [启问的 `skills/qiwen` 目录](https://github.com/buyaoqifiyiyi/qiwen/tree/main/skills/qiwen) 安装到同一 Skill 根目录，使 `qiwen` 与 `yanlu` 同级。启问在用户明确请求交接时，把已确认的术语、决策和理由交给 Yanlu 的领域建模模块。写入项目词汇表或 ADR 需要用户明确授权。
 
 ## 使用示例
 
