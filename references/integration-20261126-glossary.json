@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-26",
+ "version": "3.4.3",
+ "entry": "yanlu",
+ "mattpocock": {
+  "repository": "https://github.com/mattpocock/skills",
+  "previous_commit": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
+  "commit": "6f7f7831a625f040a8e06a0e7954826b87ce775a",
+  "license": "MIT",
+  "kind": "verbatim format refresh",
+  "adopted": [
+   "domain-modeling/GLOSSARY-FORMAT.md byte-exact: definitions cross-reference other glossary terms in bold; example tightened"
+  ],
+  "rejected": [
+   "chief-of-staff in-progress skill changes (not adopted locally)"
+  ],
+  "files": [
+   {
+    "path": "modules/domain-modeling/GLOSSARY-FORMAT.md",
+    "sha256_after": "479bb4d9cae0ef5cca8fa23ffb5ed5b1b93b41490878315551ceb0c727146cb6"
+   },
+   {
+    "path": "SKILL.md",
+    "sha256_after": "70a1bce736c053cdc66824fee20c06a75a14ea05f00006df73bcc09762d66843"
+   }
+  ],
+  "validation": [
+   "quick_validate yanlu valid",
+   "pytest 18 passed 25 subtests",
+   "readback byte-exact vs 6f7f783"
+  ]
+ }
+}
